@@ -30,6 +30,7 @@
 		}}
 	>
 		<input name="text" aria-label="Add todo" placeholder="+ tap to add a todo" />
+		<button type="submit">Add</button>
 	</form>
 
 	{#each todos as todo (todo.uid)}
